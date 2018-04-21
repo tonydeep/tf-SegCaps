@@ -2,7 +2,7 @@
 TensorFlow implementation of SegCaps [1] <br/>
 I'm now testing this implementation with ISBI2012. (in progress) <br/>
 
-![alt tag](assets/segcaps_model_figure.png)
+![model_figure](assets/segcaps_model_figure.PNG)
 
 ### Requirements
 - python 2.7
@@ -27,8 +27,8 @@ Options
 
 ### Result
 - ISBI 2012 dataset
-![alt tag](assets/training_curve.png)
-However, the result seems quiet overfitted.
+![training_curve](assets/training_curve.PNG)
+(The result seems too much overfitted, I'm now testing the several data augmentations.)
 
 ### Reference
 [1] Capsules for Object Segmentation (https://arxiv.org/abs/1804.04241)
