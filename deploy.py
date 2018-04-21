@@ -19,7 +19,7 @@ def main():
     raise ValueError("No such dataset.")
 
   tf_config = tf.ConfigProto(allow_soft_placement=True)
-  tf_config.gpu_options.visible_device_list = config.device_list
+  tf_config.gpu_options.visible_device_list = config.device
   with tf.Session(config=tf_config) as sess:
     model = SegCaps(sess, config, is_train=False)
     sess.run(tf.global_variables_initializer())
