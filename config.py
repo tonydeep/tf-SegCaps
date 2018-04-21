@@ -5,7 +5,7 @@ def str2bool(v):
 
 parser = argparse.ArgumentParser()
 basic_arg = parser.add_argument_group("basic")
-basic_arg.add_argument('--device_list', type=str, default="0")
+basic_arg.add_argument('--device', type=str, default="0")
 
 train_arg = parser.add_argument_group("train")
 train_arg.add_argument('--batch_size', type=int, default=4)
