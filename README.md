@@ -27,7 +27,9 @@ Options
 
 ### Result
 - ISBI 2012 dataset
-![training_curve](assets/training_curve.PNG)
+
+![training_curve](assets/training_curve.PNG) 
+
 (The result seems too much overfitted, I'm now testing the several data augmentations.)
 
 ### Reference
